@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>Day2 html practice</title>
+    </head>
+    <body>
+    <h3><u>Day 2: More HTML Element</u></h3><br>
+    <h5>Explore additional HTML elements:  <a href="https://www.w3schools.com/html/html_links.asp">links</a>, <a href="https://www.w3schools.com/html/html_images.asp">images.</a></h4>
+    <input type="checkbox" name="Explore additional HTML elements:  links, images." for="Explore additional HTML elements:  links, images. ">
+    <h5><a href="https://www.w3schools.com/html/html_formatting.asp">Formatting</a> tags  in HTML</h5>
+    <input type="checkbox" name="Explore additional HTML elements:  links, images." for="Explore additional HTML elements:  links, images. ">
+    <h5><mark>Exploring html <a href="https://www.w3schools.com/html/html_attributes.asp">attributes</a>, <a href="https://www.w3schools.com/html/html_classes.asp">classes</a>,<a href="https://www.w3schools.com/html/html_id.asp">id.(Important)</a></mark></h5>
+    <input type="checkbox" name="Exploring html attributes, classes, id.(Important)." for="Exploring html attributes, classes, id.(Important)">
+    <h5>Learn about <a href="https://www.w3schools.com/html/html_tables.asp">tables:</a> structure, headers, rows, and cells.</h5>
+    <input type="checkbox" name="Learn about tables: structure, headers, rows, and cells." for="Learn about tables: structure, headers, rows, and cells.">
+    <h5>Practice creating a webpage with diverse elements.</h5>
+    <input type="checkbox" name="Practice creating a webpage with diverse elements." for="Practice creating a webpage with diverse elements.">
+    </body>
+</html>

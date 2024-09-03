@@ -1,0 +1,99 @@
+<html>
+    <head>
+        <title>Assignment3</title>
+        <link rel="icon" type="image" href="C:\Users\praneeth darisi\Downloads\WhatsApp Image 2024-01-03 at 8.57.35 PM.jpeg">
+        <style>
+            a:link{
+                color:rgb(0, 128, 90);
+            }
+            [type="number"]{
+                size:190;
+                width:36%;
+            }
+            [type="checkbox"] {
+                    display:inline-flex;
+            }
+            table{
+                border-spacing:5px;
+                margin-left:480px;
+            }
+            button{
+                color: black;
+                background-color: yellow;
+                text-align: center;
+                height:35px;
+                width:12%;
+                border-top-right-radius: 10px;
+                border-top-left-radius: 10px;
+                border-bottom-left-radius: 10px;
+                border-bottom-right-radius: 10px;
+                border-style:hidden;
+            }
+            select{
+                width:36%;
+                height: 30px;
+            }
+            .section1{
+                margin-left: 490px;
+            }
+            .section2{
+                margin-left: 490px;
+            }
+            input{
+                height: 30px;
+            }
+            label{
+                text-decoration: solid;
+                color: black;
+            }
+            .error{
+                position: absolute;
+                bottom: 173px;
+                
+            }
+        </style>
+    </head>
+    <body>
+      <div class="section1">
+        <label for="Country/Region"><strong>Country/Region</strong></label><br>
+        <select id="Country/Reigion" name="Contry/Region">
+            <option>India</option>
+            <option>Australia</option>
+            <option>Japan</option>
+            <option>Russia</option>
+            <option>Brazil</option>
+            <option>South korea</option>
+        </select><br><br>
+        <label for="Full name"><strong>Full name(First and Last name)</strong></label><br>
+        <input type="text" id="Full name" name="Full name" size="50"><br><br>
+        <label for="Full name"><strong>Mobile number</strong></label><br>
+        <input type="number" id="Mobile number" name="Mobile number" pattern="[0-9]{10}"><br><br>
+        <label for="Full name"><strong>Pincode</strong></label><br>
+        <input type="number" id="Pincode" name="Pincode" pattern="[0-9]{6}" placeholder="6 digits [0-9] PIN code" size="50"><br><br>
+        <label for="Flat, House no.,Building,Company,Apartment"><strong>Flat, House no.,Building,Company,Apartment</strong></label><br>
+        <input type="text" id="Flat, House no.,Building,Company,Apartment" name="Flat, House no.,Building,Company,Apartment" size="50"><br><br>
+        <label for="Area,Street,Sector,Village"><strong>Area,Street,Sector,Village</strong></label><br>
+        <input type="text" id="Area,Street,Sector,Village" name="Area,Street,Sector,Village" size="50"><br><br>
+        <label for="Landmark"><strong>Landmark</strong></label><br>
+        <input type="text" id="Landmark" name="Landmark" size="50" placeholder="E.g. near apollo hospital"><br><br>
+      </div>
+        <table>
+        <tr> <td><label for="Town/City"><strong>Town/City</strong></label></td><td><label for="State"><strong>State</strong></label></td></tr>
+        <tr><td><input type="text" id="Town/City" name="Town/City" size="22"></td><td><select id="State" name="State" placeholder="Choose a state" style="width:160%">
+            <option>Choose a state</option>
+            <option>Maharastra</option>
+            <option>chattisgarh</option>
+            <option>Telengana</option>
+            <option>Kerala</option>
+            <option>Karnataka</option>
+        </select></td></tr>
+        </table>
+      <div class="section2">
+        <input type="checkbox" id="Make this my default address" class="error2">
+        <label for="Make this my default address" class="error">Make this my default address</label><br><br>
+        <strong> Delivery instructions(optional)</strong><br>
+        <a href="#">>Add preferences,notes,access codes and more</a><br><br>
+        <button>Add addresses</button>
+      </div>
+    </body>
+</html>
